@@ -44,6 +44,9 @@ def hit?(total)
     total += deal_card
     display_card_total(total)
   end
+  if input == 's'
+    display_card_total(total)
+  end
   
 end
 
